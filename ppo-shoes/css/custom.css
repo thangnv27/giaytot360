@@ -1,0 +1,306 @@
+
+
+/* For "classic" logo layout: end */
+
+/* constant */
+
+/*
+
+#main-nav > li > a {
+
+	padding: 0 @menu-line-height/2;
+
+}
+
+*/
+
+#main-nav:before {
+
+  content: "";
+
+  display: table;
+
+}
+
+#main-nav:after {
+
+  content: "";
+
+  display: table;
+
+  clear: both;
+
+}
+
+.ancient-ie #main-nav {
+
+  zoom: 1;
+
+}
+
+#main-nav > li > a,
+
+#main-nav > li > a > span {
+
+  font: normal normal normal 14px / 32px 'Sanchez', Helvetica, Arial, Verdana, sans-serif;
+
+  color: #ffffff;
+
+  text-transform: uppercase;
+
+}
+
+#main-nav > li > a,
+
+.csstransforms3d #main-nav.fancy-rollovers > li > a > span,
+
+.csstransforms3d #main-nav.fancy-rollovers > li > a > span > span {
+
+ // padding: 0 11.666666666666666px;
+
+}
+
+#main-nav > li.has-children > a,
+
+.csstransforms3d #main-nav.fancy-rollovers > li.has-children > a span {
+
+  padding: 0 18.666666666666664px 0 11.666666666666666px;
+
+}
+
+#main-nav > li.has-children > a:after,
+
+.csstransforms3d #main-nav.fancy-rollovers > li.has-children > a span:after {
+
+  right: 7.666666666666666px;
+
+}
+
+.logo-classic #main-nav > li > a,
+
+.csstransforms3d .logo-classic #main-nav.fancy-rollovers > li > a > span,
+
+.csstransforms3d .logo-classic #main-nav.fancy-rollovers > li > a > span > span {
+
+  padding: 0 17.5px;
+
+}
+
+.logo-classic #main-nav > li.has-children > a,
+
+.csstransforms3d .logo-classic #main-nav.fancy-rollovers > li.has-children > a span {
+
+  padding: 0 24.5px 0 17.5px;
+
+}
+
+.logo-classic #main-nav > li.has-children > a:after,
+
+.csstransforms3d .logo-classic #main-nav.fancy-rollovers > li.has-children > a span:after {
+
+  right: 10.666666666666666px;
+
+}
+
+.logo-classic #main-nav {
+
+  margin-left: -11.666666666666666px;
+
+}
+
+.old-ie #main-nav > li:hover > a,
+
+.old-ie #main-nav > li.act > a {
+
+  background-color: #c71c22;
+
+  color: #ffffff;
+
+}
+
+.csstransforms3d #main-nav.fancy-rollovers > li:hover > a,
+
+.csstransforms3d #main-nav.fancy-rollovers > li.act > a > span,
+
+.csstransforms3d #main-nav.fancy-rollovers > li.act:hover > a > span {
+
+  background-color: transparent;
+
+}
+
+#main-nav > li.act > a,
+
+#main-nav > li:hover > a,
+
+.csstransforms3d #main-nav.fancy-rollovers > li.act > a,
+
+.csstransforms3d #main-nav.fancy-rollovers > li.act > a > span,
+
+.csstransforms3d #main-nav.fancy-rollovers > li > a > span > span{
+
+// background-color: #c71c22;
+
+  color: #ffffff;
+
+}
+#mobile-menu {
+  color: #ffffff;
+
+}
+
+.csstransforms3d #main-nav.fancy-rollovers > li:hover > a > span {
+
+  background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+#main-nav > li.has-children > a:after,
+
+.csstransforms3d #main-nav.fancy-rollovers > li.has-children > a > span:after {
+
+  border-top-color: #ffffff;
+
+}
+
+#main-nav > li.has-children:hover > a:after,
+
+#main-nav > li.has-children.act > a:after,
+
+.csstransforms3d #main-nav.fancy-rollovers > li.has-children.act > a > span:after,
+
+.csstransforms3d #main-nav.fancy-rollovers > li.has-children > a > span > span:after {
+
+  border-top-color: #ffffff;
+
+}
+
+.sub-nav,
+
+.dl-menuwrapper ul {
+
+  background-color: rgba(253, 253, 247, 0.97);
+
+}
+
+.old-ie .sub-nav {
+
+  background-color: #fafbf7;
+
+}
+
+.sub-nav li:before,
+
+.dl-menuwrapper li > a {
+
+  border-bottom-style: solid;
+
+  border-bottom-width: 1px;
+
+  border-bottom-color: rgba(127, 127, 127, 0.15);
+
+}
+
+.old-ie .sub-nav li:before {
+
+  border-color: #e2e2e2;
+
+}
+
+.dl-menuwrapper li.dl-back a,
+
+.dl-menuwrapper li.dl-back a:hover {
+
+  background-color: rgba(103, 103, 94, 0.050000000000000044);
+
+}
+
+.sub-nav li.has-children:after,
+
+.dl-menuwrapper li.has-children > a:after {
+
+  border-left-color: rgba(127, 127, 127, 0.15);
+
+}
+
+.old-ie .sub-nav li.has-children:after {
+
+  border-left-color: #e2e2e2;
+
+}
+
+.sub-nav > li > a,
+
+.dl-menuwrapper li > a {
+
+  color: #67675e;
+
+  font-size: 14px;
+
+  line-height: 33px;
+
+}
+
+.sub-nav > li > a {
+
+  line-height: 22px;
+
+}
+
+.sub-nav > li:hover > a,
+
+.sub-nav > li.act > a,
+
+.dl-menuwrapper li.act > a,
+
+.no-touch .dl-menuwrapper li > a:hover,
+
+.touch .dl-menuwrapper li > a:active {
+
+  color: #c71c22;
+
+}
+
+.sub-nav li.has-children:hover:after,
+
+.sub-nav li.has-children.act:after,
+
+.no-touch .dl-menuwrapper li.has-children:hover > a:after,
+
+.touch .dl-menuwrapper li.has-children:active > a:after,
+
+.dl-menuwrapper li.has-children.act > a:after {
+
+  border-left-color: #c71c22;
+
+}
+
+/* Navigation: end */
+/* !- Mobile menu */
+
+.dl-menuwrapper li.dl-back span:before {
+
+  background-image: url("data:image/svg+xml,%3Csvg%20version=%221.1%22%20xmlns=%22http://www.w3.org/2000/svg%22%20xmlns:xlink=%22http://www.w3.org/1999/xlink%22%20x=%220px%22%20y=%220px%22%09%20width=%2210px%22%20height=%227px%22%20viewBox=%220%200%2010%207%22%20enable-background=%22new%200%200%2010%207%22%20xml:space=%22preserve%22%3E%3Crect%20x=%223.5%22%20y=%222%22%20fill=%22%2367675e%22%20width=%226.5%22%20height=%223%22/%3E%3Cpolyline%20fill=%22%2367675e%22%20points=%224.031,7%200.068,3.5%204.031,0%20%22/%3E%3C/svg%3E");
+
+}
+
+.no-touch .dl-menuwrapper li.dl-back a:hover span:before,
+
+.touch .dl-menuwrapper li.dl-back a:active span:before {
+
+  background-image: url("data:image/svg+xml,%3Csvg%20version=%221.1%22%20xmlns=%22http://www.w3.org/2000/svg%22%20xmlns:xlink=%22http://www.w3.org/1999/xlink%22%20x=%220px%22%20y=%220px%22%09%20width=%2210px%22%20height=%227px%22%20viewBox=%220%200%2010%207%22%20enable-background=%22new%200%200%2010%207%22%20xml:space=%22preserve%22%3E%3Crect%20x=%223.5%22%20y=%222%22%20fill=%22%234ab661%22%20width=%226.5%22%20height=%223%22/%3E%3Cpolyline%20fill=%22%234ab661%22%20points=%224.031,7%200.068,3.5%204.031,0%20%22/%3E%3C/svg%3E");
+
+}
+
+#mobile-menu {
+
+  background-image: url("data:image/svg+xml,%3Csvg%20version=%221.1%22%20id=%22Layer_1%22%20xmlns=%22http://www.w3.org/2000/svg%22%20xmlns:xlink=%22http://www.w3.org/1999/xlink%22%20x=%220px%22%20y=%220px%22%09%20width=%2212px%22%20height=%2212px%22%20viewBox=%220%200%2012%2012%22%20enable-background=%22new%200%200%2012%2012%22%20xml:space=%22preserve%22%3E%3Crect%20y=%228.984%22%20width=%2212%22%20height=%222.016%22%20fill=%22%23ffffff%22%20/%3E%3Crect%20y=%224.992%22%20width=%2212%22%20height=%222.016%22%20fill=%22%23ffffff%22%20/%3E%3Crect%20y=%221%22%20width=%2212%22%20height=%222.016%22%20fill=%22%23ffffff%22%20/%3E%3C/svg%3E");
+
+}
+
+#mobile-menu.dl-active {
+
+  background-image: url("data:image/svg+xml,%3Csvg%20version=%221.1%22%20id=%22Layer_1%22%20xmlns=%22http://www.w3.org/2000/svg%22%20xmlns:xlink=%22http://www.w3.org/1999/xlink%22%20x=%220px%22%20y=%220px%22%09%20width=%2212px%22%20height=%2212px%22%20viewBox=%220%200%2012%2012%22%20enable-background=%22new%200%200%2012%2012%22%20xml:space=%22preserve%22%3E%3Cg%3E%09%3Cg%3E%09%09%3Cpolygon%20fill=%22%23ffffff%22%20points=%2212,1.5%2010.5,0%206,4.5%201.5,0%200,1.5%204.5,6%200,10.501%201.5,12%206,7.5%2010.5,12%2012,10.501%207.5,6%22/%3E%09%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+/* Mobile menu: end */
